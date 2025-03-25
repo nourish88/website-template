@@ -48,13 +48,8 @@ export default function AboutPage() {
                 <div className="about-content">
                   <h2>Av. Işıl Nağme Evgin</h2>
                   <p>
-<<<<<<< HEAD
                     2000 yılında Atılım Üniversitesi Hukuk Fakültesi&apos;nden
-                    mezun oldum. Mezuniyetimin ardından AnkaraBarosu&apos;na
-=======
-                    2000 yılında İstanbul Üniversitesi Hukuk Fakültesi&apos;nden
-                    mezun oldum. Mezuniyetimin ardından İstanbul Barosu&apos;na
->>>>>>> 5e9ab0f33a561dce98bdf57fbab7c37d7b76920f
+                    mezun oldum. Mezuniyetimin ardından AnkaraBarosu&apos;na{" "}
                     kayıtlı olarak avukatlık mesleğine başladım.
                   </p>
                   <p>
