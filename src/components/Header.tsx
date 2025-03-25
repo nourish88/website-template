@@ -1,6 +1,11 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Header() {
+  const pathname = usePathname();
+
   return (
     <header>
       <div className="top-bar">
@@ -54,32 +59,48 @@ export default function Header() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item active">
+              <li className={`nav-item ${pathname === "/" ? "active" : ""}`}>
                 <Link className="nav-link" href="/">
                   Ana Sayfa
                 </Link>
               </li>
-              <li className="nav-item">
+              <li
+                className={`nav-item ${pathname === "/about" ? "active" : ""}`}
+              >
                 <Link className="nav-link" href="/about">
                   Hakkımda
                 </Link>
               </li>
-              <li className="nav-item">
+              <li
+                className={`nav-item ${
+                  pathname === "/practice-areas" ? "active" : ""
+                }`}
+              >
                 <Link className="nav-link" href="/practice-areas">
                   Uzmanlık Alanları
                 </Link>
               </li>
-              <li className="nav-item">
+              <li
+                className={`nav-item ${
+                  pathname === "/attorneys" ? "active" : ""
+                }`}
+              >
                 <Link className="nav-link" href="/attorneys">
                   Ekibimiz
                 </Link>
               </li>
-              <li className="nav-item">
+              <li
+                className={`nav-item ${pathname === "/blog" ? "active" : ""}`}
+              >
                 <Link className="nav-link" href="/blog">
                   Blog
                 </Link>
               </li>
-              <li className="nav-item">
+              <li
+                className={`nav-item ${
+                  pathname === "/contact" ? "active" : ""
+                }`}
+              >
                 <Link className="nav-link" href="/contact">
                   İletişim
                 </Link>

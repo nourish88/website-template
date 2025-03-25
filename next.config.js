@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Your configuration options here
+  images: {
+    domains: ["stackpath.bootstrapcdn.com", "cdnjs.cloudflare.com"],
+  },
 };
 
 module.exports = nextConfig;
