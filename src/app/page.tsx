@@ -3,7 +3,6 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Stats from "@/components/Stats";
 import ExpertiseAreas from "@/components/ExpertiseAreas";
-import TailwindTest from "@/components/TailwindTest";
 import Testimonials from "@/components/Testimonials";
 import BlogPreviews from "@/components/BlogPreviews";
 // import ExpertiseAreas from "@/components/ExpertiseAreas";
