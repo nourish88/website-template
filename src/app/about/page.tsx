@@ -19,7 +19,7 @@ export default function AboutPage() {
               <div className="col-md-12">
                 <h1>Hakkımda</h1>
                 <div className="breadcrumb">
-                  <a href="/">Ana Sayfa</a> / <span>Hakkımda</span>
+                  <Link href="/">Ana Sayfa</Link> / <span>Hakkımda</span>
                 </div>
               </div>
             </div>
@@ -48,8 +48,8 @@ export default function AboutPage() {
                 <div className="about-content">
                   <h2>Av. Işıl Nağme Evgin</h2>
                   <p>
-                    2000 yılında İstanbul Üniversitesi Hukuk Fakültesi'nden
-                    mezun oldum. Mezuniyetimin ardından İstanbul Barosu'na
+                    2000 yılında İstanbul Üniversitesi Hukuk Fakültesi&apos;nden
+                    mezun oldum. Mezuniyetimin ardından İstanbul Barosu&apos;na
                     kayıtlı olarak avukatlık mesleğine başladım.
                   </p>
                   <p>
