@@ -2,11 +2,28 @@ import "./globals.css";
 import "@/styles/main.css";
 import Script from "next/script";
 import { Metadata } from "next";
-import "./globals.css";
+
 export const metadata: Metadata = {
   title: "Av. Işıl Nağme Evgin | İstanbul Hukuk Bürosu",
   description:
     "İstanbul'da profesyonel hukuki danışmanlık ve dava takibi hizmetleri",
+  keywords:
+    "avukat, hukuk bürosu, istanbul, dava takibi, hukuki danışmanlık, Işıl Nağme Evgin",
+  authors: [{ name: "Av. Işıl Nağme Evgin" }],
+  openGraph: {
+    title: "Av. Işıl Nağme Evgin | İstanbul Hukuk Bürosu",
+    description:
+      "İstanbul'da profesyonel hukuki danışmanlık ve dava takibi hizmetleri",
+    type: "website",
+    locale: "tr_TR",
+    siteName: "Av. Işıl Nağme Evgin",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  viewport: "width=device-width, initial-scale=1",
+  themeColor: "#8b0000",
 };
 
 export default function RootLayout({
@@ -17,6 +34,7 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <head>
+        <link rel="canonical" href="https://your-domain.com" />
         <link
           href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:400,500,700&display=swap"
           rel="stylesheet"
@@ -45,23 +63,6 @@ export default function RootLayout({
           src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
           strategy="beforeInteractive"
         />
-        <Script id="main-js">
-          {`
-            // Handle page transitions
-            document.addEventListener('DOMContentLoaded', function() {
-              document.body.classList.remove('page-transitioning');
-              
-              // Sticky header
-              window.addEventListener('scroll', function() {
-                if (window.scrollY > 100) {
-                  document.querySelector('.navbar').classList.add('navbar-sticky');
-                } else {
-                  document.querySelector('.navbar').classList.remove('navbar-sticky');
-                }
-              });
-            });
-          `}
-        </Script>
       </body>
     </html>
   );
