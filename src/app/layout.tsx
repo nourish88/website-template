@@ -4,14 +4,14 @@ import Script from "next/script";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Av. Işıl Nağme Evgin | İstanbul Hukuk Bürosu",
+  title: "Av. Işıl Nağme Evgin | AnkaraHukuk Bürosu",
   description:
     "İstanbul'da profesyonel hukuki danışmanlık ve dava takibi hizmetleri",
   keywords:
     "avukat, hukuk bürosu, istanbul, dava takibi, hukuki danışmanlık, Işıl Nağme Evgin",
   authors: [{ name: "Av. Işıl Nağme Evgin" }],
   openGraph: {
-    title: "Av. Işıl Nağme Evgin | İstanbul Hukuk Bürosu",
+    title: "Av. Işıl Nağme Evgin | AnkaraHukuk Bürosu",
     description:
       "İstanbul'da profesyonel hukuki danışmanlık ve dava takibi hizmetleri",
     type: "website",
