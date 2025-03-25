@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="row">
             <div className="col-md-4">
               <div className="footer-widget">
-                <h3>Av. Işın Nağme Evgin</h3>
+                <h3>Av. Işıl Nağme Evgin</h3>
                 <p>
                   Profesyonel hukuki danışmanlık ve dava takibi hizmetleri
                   sunuyoruz. Hukuki sorunlarınızda yanınızdayız.
@@ -78,7 +78,7 @@ export default function Footer() {
             <div className="row">
               <div className="col-md-12 text-center">
                 <p>
-                  &copy; {new Date().getFullYear()} Av. Işın Nağme Evgin. Tüm
+                  &copy; {new Date().getFullYear()} Av. Işıl Nağme Evgin. Tüm
                   Hakları Saklıdır.
                 </p>
               </div>
@@ -90,7 +90,7 @@ export default function Footer() {
       <div className="copyright py-3 bg-darker text-center">
         <div className="container">
           <small>
-            &copy; {new Date().getFullYear()} Av. Işın Nağme Evgin. Tüm hakları
+            &copy; {new Date().getFullYear()} Av. Işıl Nağme Evgin. Tüm hakları
             saklıdır.
           </small>
         </div>

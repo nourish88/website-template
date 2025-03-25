@@ -12,7 +12,7 @@ export default function Testimonials() {
       name: "Ahmet Yılmaz",
       position: "İş İnsanı",
       quote:
-        "Av. Işın Nağme Evgin, şirketimizin hukuki süreçlerinde gösterdiği profesyonel yaklaşım ve çözüm odaklı stratejileriyle bize büyük katkı sağladı. Kendisiyle çalışmak her zaman güven verici.",
+        "Av. Işıl Nağme Evgin, şirketimizin hukuki süreçlerinde gösterdiği profesyonel yaklaşım ve çözüm odaklı stratejileriyle bize büyük katkı sağladı. Kendisiyle çalışmak her zaman güven verici.",
       image: "/images/testimonial-1.jpg",
     },
     {
@@ -20,7 +20,7 @@ export default function Testimonials() {
       name: "Zeynep Kaya",
       position: "Eğitimci",
       quote:
-        "Boşanma sürecimde bana gösterdiği anlayış ve sabır için Av. Işın Hanım'a minnettarım. Zor bir dönemde haklarımı koruyarak, sürecin en az hasarla tamamlanmasını sağladı.",
+        "Boşanma sürecimde bana gösterdiği anlayış ve sabır için Av. Işıl Hanım'a minnettarım. Zor bir dönemde haklarımı koruyarak, sürecin en az hasarla tamamlanmasını sağladı.",
       image: "/images/testimonial-2.jpg",
     },
     {

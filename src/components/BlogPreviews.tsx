@@ -9,7 +9,7 @@ export default function BlogPreviews() {
       excerpt:
         "Son yasal düzenlemelerle birlikte arabuluculuk süreçlerinde meydana gelen değişiklikler ve bunların iş davalarına yansımaları hakkında bilmeniz gerekenler.",
       date: "15 Mart 2023",
-      author: "Av. Işın Nağme Evgin",
+      author: "Av. Işıl Nağme Evgin",
       category: "İş Hukuku",
       image: "/images/blog-1.jpg",
       slug: "yeni-arabuluculuk-kanunu-ve-is-hukukuna-etkileri",
@@ -20,7 +20,7 @@ export default function BlogPreviews() {
       excerpt:
         "Boşanma davalarında en çok tartışma konusu olan mal paylaşımı hakkında merak edilenler ve yasal haklarınızı korumanın yolları.",
       date: "28 Şubat 2023",
-      author: "Av. Işın Nağme Evgin",
+      author: "Av. Işıl Nağme Evgin",
       category: "Aile Hukuku",
       image: "/images/blog-2.jpg",
       slug: "bosanma-surecinde-mal-paylasimi-sik-sorulan-sorular",
@@ -31,7 +31,7 @@ export default function BlogPreviews() {
       excerpt:
         "Anonim şirketlerde yönetim kurulu üyelerinin hukuki ve mali sorumlulukları hakkında detaylı bir inceleme ve risk yönetimi önerileri.",
       date: "10 Ocak 2023",
-      author: "Av. Işın Nağme Evgin",
+      author: "Av. Işıl Nağme Evgin",
       category: "Ticaret Hukuku",
       image: "/images/blog-3.jpg",
       slug: "ticari-sirketlerde-yonetim-kurulu-sorumlulugu",

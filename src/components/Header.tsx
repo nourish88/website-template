@@ -39,7 +39,7 @@ export default function Header() {
       <nav className="navbar navbar-expand-lg navbar-light bg-white">
         <div className="container">
           <Link href="/" className="navbar-brand">
-            <h1>Av. Işın Nağme Evgin</h1>
+            <h1>Av. Işıl Nağme Evgin</h1>
           </Link>
           <button
             className="navbar-toggler"

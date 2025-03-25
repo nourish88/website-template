@@ -4,7 +4,7 @@ import Script from "next/script";
 import { Metadata } from "next";
 import "./globals.css";
 export const metadata: Metadata = {
-  title: "Av. Işın Nağme Evgin | İstanbul Hukuk Bürosu",
+  title: "Av. Işıl Nağme Evgin | İstanbul Hukuk Bürosu",
   description:
     "İstanbul'da profesyonel hukuki danışmanlık ve dava takibi hizmetleri",
 };
